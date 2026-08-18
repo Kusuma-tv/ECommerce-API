@@ -19,3 +19,29 @@ The project follows a layered architecture with separate responsibilities for We
 - Swagger API Documentation
 - Repository Pattern
 - Business Access Layer
+  
+## Technologies
+- C#
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQL Server
+- JWT Authentication
+- Swagger
+- Git
+- GitHub
+
+## Architecture
+The project follows a layered architecture to separate API handling, business logic, database operations, and data access.
+Client / Postman
+       ↓
+Controller
+       ↓
+BAL
+       ↓
+Repository Interface
+       ↓
+Repository
+       ↓
+AppDbContext
+       ↓
+SQL Server
