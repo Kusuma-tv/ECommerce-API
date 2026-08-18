@@ -63,3 +63,52 @@ User
 
 Category
    └── Product
+
+## API Modules
+### Authentication
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/User/register` | Register a new user |
+| POST | /api/User/login` | Login and receive JWT token |
+
+### Category
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/Category` | Create category |
+| GET | /api/Category` | Get all categories |
+| GET | /api/Category/{categoryId}` | Get category by ID |
+| PUT | /api/Category/{categoryId}` | Update category |
+| DELETE | /api/Category/{categoryId}` | Delete category |
+
+### Product
+
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/Product` | Create product |
+| GET | /api/Product` | Get all products |
+| GET | /api/Product/{productId}` | Get product by ID |
+| PUT | /api/Product/{productId}` | Update product |
+| DELETE | /api/Product/{productId}` | Delete product |
+
+### Cart
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/Cart` | Add product to cart |
+| GET | /api/Cart` | Get current user's cart |
+| PUT | /api/Cart/{cartItemId}` | Update cart item quantity |
+| DELETE | /api/Cart/{cartItemId}` | Remove cart item |
+
+### Order
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/Order` | Create order from cart |
+| GET | /api/Order` | Get current user's orders |
+| GET | /api/Order/{orderId}` | Get order by ID |
+
+### Wishlist
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | /api/Wishlist` | Add product to wishlist |
+| GET | /api/Wishlist` | Get current user's wishlist |
+| DELETE | /api/Wishlist/{wishlistItemId}` | Remove product from wishlist |
