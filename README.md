@@ -112,3 +112,36 @@ Category
 | POST | /api/Wishlist` | Add product to wishlist |
 | GET | /api/Wishlist` | Get current user's wishlist |
 | DELETE | /api/Wishlist/{wishlistItemId}` | Remove product from wishlist |
+
+## Authentication
+The API uses JWT Bearer Authentication.
+The authentication flow is:
+Register
+   ↓
+Login
+   ↓
+JWT Token
+   ↓
+Authorization: Bearer <token>
+   ↓
+Protected APIs
+
+## Swagger
+Swagger is enabled for interactive API documentation and API testing.
+After running the application, Swagger can be accessed at:
+https://localhost:<port>/swagger
+
+## How to Run
+### Prerequisites
+- .NET SDK
+- SQL Server
+- Visual Studio
+- SQL Server Management Studio (optional)
+### Steps
+1. Clone the repository.
+2. Open the solution in Visual Studio.
+3. Configure the SQL Server connection string.
+4. Configure JWT settings using User Secrets.
+5. Apply Entity Framework Core migrations.
+6. Build and run the application.
+7. Open Swagger to explore the APIs.
