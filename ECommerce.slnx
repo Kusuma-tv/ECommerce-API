@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="ECommerce.Api/ECommerce.Api.csproj" />
+  <Project Path="ECommerce.BAL/ECommerce.BAL.csproj" />
+  <Project Path="ECommerce.DataAccess/ECommerce.DataAccess.csproj" />
+  <Project Path="ECommerce.Entity/ECommerce.Entity.csproj" />
+  <Project Path="ECommerce.Interfaces/ECommerce.Interfaces.csproj" />
+  <Project Path="ECommerce.Repository/ECommerce.Repository.csproj" />
+</Solution>
