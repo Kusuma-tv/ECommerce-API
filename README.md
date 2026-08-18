@@ -45,3 +45,21 @@ Repository
 AppDbContext
        ↓
 SQL Server
+
+## Database Relationships
+The main entities and their relationships are:
+User
+ ├── Cart
+ │     └── CartItem
+ │           └── Product
+ │
+ ├── Order
+ │     └── OrderItem
+ │           └── Product
+ │
+ └── Wishlist
+       └── WishlistItem
+             └── Product
+
+Category
+   └── Product
