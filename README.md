@@ -145,3 +145,33 @@ https://localhost:<port>/swagger
 5. Apply Entity Framework Core migrations.
 6. Build and run the application.
 7. Open Swagger to explore the APIs.
+
+## Project Structure
+ECommerce
+│
+├── ECommerce.Entity
+│   ├── Category
+│   ├── Product
+│   ├── User
+│   ├── Cart
+│   ├── Order
+│   └── Wishlist
+│
+├── ECommerce.DataAccess
+│   ├── AppDbContext
+│   └── Configurations
+│
+├── ECommerce.Interfaces
+│   ├── IBAL
+│   └── IRepository
+│
+├── ECommerce.BAL
+│
+├── ECommerce.Repository
+│
+└── ECommerce.WebAPI
+    └── Controllers
+
+## API Testing
+API testing will be performed using Postman.
+The Postman collection will be added after completing the API testing for all features.
